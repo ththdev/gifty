@@ -12,6 +12,7 @@ const Layout:React.FC = ({ children }) => {
 const SafeAreaView = styled.SafeAreaView`
     flex: 1;
     background-color: #fff;
+    position: relative;
 `
 
 export default Layout
